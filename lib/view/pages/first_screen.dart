@@ -7,7 +7,7 @@ import 'package:suitmedia_test/view/widgets/custom_button.dart';
 class FirstScreen extends StatelessWidget {
   final TextEditingController name = TextEditingController();
   final TextEditingController palindrome = TextEditingController();
-  FirstScreen({Key? key}) : super(key: key);
+  FirstScreen({super.key});
 
   @override
   Widget build(BuildContext context) {

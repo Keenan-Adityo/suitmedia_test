@@ -6,7 +6,7 @@ import 'package:suitmedia_test/styles/text_styles.dart';
 import 'package:suitmedia_test/view/widgets/custom_button.dart';
 
 class SecondScreen extends StatelessWidget {
-  const SecondScreen({Key? key}) : super(key: key);
+  const SecondScreen({super.key});
 
   @override
   Widget build(BuildContext context) {
